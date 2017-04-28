@@ -8,4 +8,4 @@
 ![Alt text](/Registration Form/screenshots/main.png?raw=true "Registration Form")
 
 # Country and State select list
-![Alt text](/MyHometown/screenshots/countrystate.png?raw=true "Country and State")
+![Alt text](/Registration Form/screenshots/countrystate.png?raw=true "Country and State")
