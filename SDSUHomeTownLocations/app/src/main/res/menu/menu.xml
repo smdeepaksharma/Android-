@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/add_user_information"
+        android:checked="false"
+        android:title="@string/add_user_info"
+        android:icon="@drawable/add_location"/>
+    <item
+        android:id="@+id/view_users"
+        android:checked="false"
+        android:icon="@drawable/ic_face_black"
+        android:title="@string/view" />
+    <item
+        android:id="@+id/change_password"
+        android:checked="false"
+        android:icon="@drawable/ic_mode_edit_black"
+        android:title="@string/change_password" />
+    </group>
+</menu>
