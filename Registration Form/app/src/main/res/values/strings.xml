@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Person Data Form</string>
+    <string name="first_name">First Name</string>
+    <string name="family_name">Family Name</string>
+    <string name="age">Age</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="birthday">Birthday</string>
+    <string name="country">Country and State</string>
+    <string name="state">State</string>
+    <string name="done">Done</string>
+    <string name="set">set</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="select_country">Select Country</string>
+    <string name="select_state">Select State</string>
+    <string name="select_birthdate">Select Birth date</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_country_state">CountryStateActivity</string>
+    <string name="title_activity_country">CountryActivity</string>
+</resources>
