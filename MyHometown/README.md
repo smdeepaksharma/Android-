@@ -10,4 +10,4 @@ Ex: You can find people from USA, California who started school in 2016
 
 Users can start a chat with other users using the same application.
 
-![Alt text](/screenshots/ht_mapview.png?raw=true "MyHometown- Location of users on map")
+![Alt text](/screenshots/ht_mapview.png?raw=true "Location of users on map")
