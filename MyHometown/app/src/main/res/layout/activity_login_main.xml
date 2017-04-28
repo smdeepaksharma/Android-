@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:background="#f0f0f4"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:drawableStart="@drawable/mail"
+        android:drawablePadding="16dp"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:background="#f0f0f4"
+        android:textColor="#000"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:drawablePadding="16dp"
+        android:drawableStart="@drawable/lockkers"
+        />
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnformate"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        android:padding="14dp"
+        android:layout_gravity="center"
+        android:text="@string/sign_in_button"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        />
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/sign_up_button"
+        android:textSize="16sp"
+        android:focusable="false"
+        android:layout_gravity="center" />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+</FrameLayout>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">HomeTown Locations</string>
+    <string name="nickname">Nick Name</string>
+    <string name="password">Password</string>
+    <string name="sign_in_button">Sign In</string>
+    <string name="sign_up_button">New User? Sign Up</string>
+    <string name="queryhint">Enter NickName, Country or State</string>
+    <string name="chats">Chats</string>
+
+    <string name="message_template">Enter message</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="map_view">View on Map</string>
+    <string name="load_more">Load more users</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="year_label">Year :</string>
+    <string name="year">Year</string>
+    <string name="city">City</string>
+    <string name="default_username">Unknown</string>
+    <string name="location">Location</string>
+    <string name="country_list_title">Select Country</string>
+    <string name="state_list_title">Select State</string>
+    <string name="set">Search</string>
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+    <string name="add_user_info">Add Information</string>
+    <string name="add_location">Add Location</string>
+    <string name="address">Address :</string>
+    <string name="change_password">Change Password</string>
+    <string name="view">View Friends</string>
+    <string name="set_location">Set Home Town Location</string>
+    <string name="on_map">Locate users on map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="select_country">Select Country</string>
+    <string name="select_state">Select State</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="add">Add</string>
+    <string name="search_by_country">Search by country</string>
+    <string name="search_by_state">Search by state</string>
+    <string name="search_by_year">Search by year</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+    <string name="description">Find out where your friends are from!</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_user_list">Users</string>
+    <string name="title_user_detail">User Detail</string>
+    <string name="title_activity_map">Map</string>
+</resources>
