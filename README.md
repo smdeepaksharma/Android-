@@ -1,9 +1,8 @@
 # Android
-## Android Programming samples
 
-## Click Count
-### Description
-A basic android application that demonstrates the following :
-1.  Life Cycle methods of Activity
-2.  Saving Instance states across orientation changes.
-3.  Background and Fourground states of an activity
+## Overview
+
+### Click Count : Application to demonstrate Activity Life Cycle methods 
+### MyHometown : Tablet version of SDSUhometown application with chat option
+### RegistrationForm : Basic registration form using fragments
+### SDSUHometownLocations : App that connects SDSU students based on hometown locations
