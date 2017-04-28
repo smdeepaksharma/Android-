@@ -6,7 +6,7 @@ SharedPrefeces is used to store data locally.
 Fragments are used to display the list of Country names and State names
 
 ## Personal Date Form
-![Alt text](/RegistrationForm/screenshots/main.png?raw=true "Location of users on map")
+<img src="/RegistrationForm/screenshots/main.png" width="300px" height="500x"/>
 
 ## Country and State selector list
-![Alt text](/RegistrationForm/screenshots/countrystate.png?raw=true "Location of users on map")
+<img src="/RegistrationForm/screenshots/countrystate.png" width="300px" height="500x"/>
