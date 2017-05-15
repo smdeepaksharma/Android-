@@ -11,7 +11,8 @@ Users can perform the following:
 1. SignIn / SingUp : 
 There are two posible ways in which user can Sign In. 
 a) Using the apps Sign In module b) Using their Gmail account 
-<img src="/CampusJobs/screenshots/login.png"/>
+
+<img src="/CampusJobs/screenshots/login.png" height="400px" width="250px"/><span>____</span><img src="/CampusJobs/screenshots/register.png" height="400px" width="250px"/>
 
 2. Search job 
 Using the serach option in the home screen you can either search by Job Title or by Department or both. 
