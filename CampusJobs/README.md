@@ -1,4 +1,4 @@
-App Name: Compus Jobs
+# Compus Jobs
 Min SDK : API 19
 Works fine on Nexus 4, Nexus 5 and LG devices. 
 
