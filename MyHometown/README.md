@@ -11,10 +11,10 @@ Ex: You can find people from USA, California who started school in 2016
 Users can start a chat with other users using the same application.
 
 ## User Location on map
-![Alt text](/MyHometown/screenshots/ht_mapview.png?raw=true "Location of users on map")
+<img src="/MyHometown/screenshots/ht_mapview.png" width="700px" height="500px"/>
 
 ## Chat 
-![Alt text](/MyHometown/screenshots/ht_chat.png?raw=true "Chat")
+<img src="/MyHometown/screenshots/ht_chat.png" width="700px" height="500px"/>
 
 ## Users List
-![Alt text](/MyHometown/screenshots/ht_listview.png?raw=true "ist View")
+<img src="/MyHometown/screenshots/ht_listview.png" width="700px" height="500px"/>
