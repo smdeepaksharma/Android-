@@ -12,7 +12,7 @@ Users can perform the following:
 There are two posible ways in which user can Sign In. 
 a) Using the apps Sign In module b) Using their Gmail account 
 
-<img src="/CampusJobs/screenshots/login.png" height="400px" width="250px"/><span>__</span><img src="/CampusJobs/screenshots/register.png" height="400px" width="250px"/><span>__</span><img src="/CampusJobs/screenshots/joblisting.png" height="400px" width="250px"/>
+<img src="/CampusJobs/screenshots/login.png" height="400px" width="250px"/>     <img src="/CampusJobs/screenshots/register.png" height="400px" width="250px"/>    <img src="/CampusJobs/screenshots/joblisting.png" height="400px" width="250px"/>
 
 2. Search job 
 Using the serach option in the home screen you can either search by Job Title or by Department or both. 
@@ -27,7 +27,7 @@ User can add the multiple jobs to cart and apply to all the jobs at once.
 5. View Profile
 User can view profile using the Profile menu in the action bar (condesed menu).
 
-<img src="/CampusJobs/screenshots/jobdescription.png" height="400px" width="250px"/><span>__</span><img src="/CampusJobs/screenshots/profile.png" height="400px" width="250px"/><span>__</span><img src="/CampusJobs/screenshots/addEducation.png" height="400px" width="250px"/>
+<img src="/CampusJobs/screenshots/jobdescription.png" height="400px" width="250px"/>      <img src="/CampusJobs/screenshots/profile.png" height="400px" width="250px"/>     <img src="/CampusJobs/screenshots/addEducation.png" height="400px" width="250px"/>
 
 6. Edit Profile
 User can edit profile details like education, experience and skills. 
@@ -47,7 +47,7 @@ Additionally, they can also view the list of students who have applied to that j
 Job Posters can view the profile of the students.
 On viewing the profile if the job poster is interested in continuing forward with the appplicant he can schedule an interview using the "Schedule Interview" option. 
 
-<img src="/CampusJobs/screenshots/postJob.png" height="400px" width="250px"/><span>__</span><img src="/CampusJobs/screenshots/applicantProfile.png" height="400px" width="250px"/>      
+<img src="/CampusJobs/screenshots/postJob.png" height="400px" width="250px"/>     <img src="/CampusJobs/screenshots/applicantProfile.png" height="400px" width="250px"/>      
 
 10. Schedule Interview
 "Schedule Interview" button will redirect the user to a Messaging Application installed on the phone such as Gmail, Email, SMS etc. The reciepent address, email subject and email body will be prepopulated using a default template. 
