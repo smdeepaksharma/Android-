@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:minWidth="350dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="32dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/universityName"
+        android:inputType="textCapSentences|textCapWords"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:hint="@string/school"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:entries="@array/degreeList"
+        android:prompt="@string/degree"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/degree"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/majorList"
+        android:prompt="@string/major"
+        android:textSize="13sp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/major"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/startDate"
+            android:inputType="date"
+            android:hint="@string/startDate"
+            android:textSize="12sp" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:inputType="date"
+            android:hint="@string/endDate"
+            android:layout_height="wrap_content"
+            android:id="@+id/endDate"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inProgress"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:fitsSystemWindows="true"
+        android:switchPadding="10dp"
+        android:layerType="software"
+        android:textOff=""
+        android:textOn=""
+        android:text="@string/inProgress"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_70"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            style="?android:buttonBarButtonStyle"
+            android:text="@string/cancel"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:id="@+id/ok"
+            android:textColor="@color/black"
+            style="?android:buttonBarButtonStyle"
+            android:text="@string/submit"/>
+    </LinearLayout>
+</LinearLayout>

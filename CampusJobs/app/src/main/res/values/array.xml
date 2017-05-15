@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sourceValues">
+        <item>Federal Work Study</item>
+        <item>Non Work Study</item>
+        <item>Aztec Shops</item>
+        <item>Associated Students</item>
+    </string-array>
+
+    <string-array name="degreeList">
+        <item>Degree</item>
+        <item>High School Diploma</item>
+        <item>Associates Degree</item>
+        <item>Bachelors Degree</item>
+        <item>Masters Degree</item>
+    </string-array>
+
+    <string-array name="majorList">
+        <item>Major</item>
+        <item>Aeronautical Engineering</item>
+        <item>Arts and Music</item>
+        <item>Business Studies</item>
+        <item>Computer Engineering</item>
+        <item>Computer Science</item>
+        <item>Economics</item>
+        <item>Electrical Engineering</item>
+        <item>Management Information Systems</item>
+        <item>Physics</item>
+        <item>Physical Science</item>
+        <item>Software Engineering</item>
+    </string-array>
+
+</resources>

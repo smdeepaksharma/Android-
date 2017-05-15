@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.sdsu.deepak.campusjobs.JobPostMenu">
+
+    <Button
+        android:id="@+id/post"
+        style="?android:attr/buttonBarButtonStyle"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/mode_edit_black_24x24"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/post"
+        android:drawablePadding="10dp"
+        android:drawableEnd="@drawable/ic_chevron_right_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/manage"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/settings_applications_black_24x24"
+        android:drawableEnd="@drawable/ic_chevron_right_24dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:text="@string/manage"/>
+
+</LinearLayout>

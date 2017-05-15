@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:minWidth="350dp"
+        android:layout_marginTop="32dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/company"
+        android:inputType="textCapSentences|textCapWords"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:hint="@string/company"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:minWidth="350dp"
+        android:inputType="textCapWords|textCapSentences"
+        android:textColor="@color/black"
+        android:hint="@string/position"
+        android:id="@+id/position"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/startDate"
+            android:inputType="date"
+            android:hint="@string/startDate"
+            android:textSize="12sp" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:inputType="date"
+            android:hint="@string/endDate"
+            android:layout_height="wrap_content"
+            android:id="@+id/endDate"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_70"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            style="?android:buttonBarButtonStyle"
+            android:text="@string/cancel"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:id="@+id/ok"
+            android:textColor="@color/black"
+            style="?android:buttonBarButtonStyle"
+            android:text="@string/submit"/>
+    </LinearLayout>
+</LinearLayout>

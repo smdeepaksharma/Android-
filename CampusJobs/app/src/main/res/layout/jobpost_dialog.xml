@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:minWidth="300dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/jobTitle"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jobTitle"
+        android:labelFor="@+id/dialog_job_title"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:id="@+id/dialog_job_title"/>
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="@string/department"
+        android:textStyle="bold"
+        android:labelFor="@+id/dialog_job_description"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:id="@+id/dialog_job_description"/>
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            style="?android:buttonBarButtonStyle"
+            android:layout_gravity="end"
+            android:id="@+id/cancel"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="true"
+            android:layout_marginStart="16dp"
+            style="?android:buttonBarButtonStyle"
+            android:layout_gravity="end"
+            android:id="@+id/next"/>
+    </LinearLayout>
+</LinearLayout>

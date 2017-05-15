@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/university"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/eduIcon"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/eduIcon"
+        android:id="@+id/universityName"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        style="@style/TextAppearance.AppCompat.Medium"
+        tools:text="San Diego State University - California State University"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/universityName"
+        tools:text="Master's Degree, Information Science and Engineering"
+        android:layout_marginTop="4dp"
+        android:textSize="13sp"
+        android:layout_alignStart="@id/universityName"
+        android:id="@+id/degree_and_major"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/degree_and_major"
+        android:id="@+id/duration"
+        android:textSize="12sp"
+        android:layout_alignStart="@id/degree_and_major"
+        android:layout_marginTop="4dp"
+        tools:text="2011 - 2015"/>
+
+</RelativeLayout>

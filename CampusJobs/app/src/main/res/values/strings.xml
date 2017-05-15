@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CampusJobs</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="olduser">Already have an account ? Sign In</string>
+    <string name="email_hint">Enter Email Id</string>
+    <string name="password_hint">Enter password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="newuser">New User? Sign Up here</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="sdsu">San Diego State University</string>
+    <string name="sdsumoto">Leadership starts here!</string>
+    <string name="registerTitle">Register to search jobs!</string>
+    <string name="signOut">Sign Out</string>
+    <string name="emptySkills">(Ex : Data Analysis)</string>
+    <string name="or">OR</string>
+    <string name="inProgress">In Progress</string>
+
+    <!--Home screen menu-->
+    <string name="associatedUrl">https://as.sdsu.edu/jobs/</string>
+    <string name="workStudyUrl">https://studentaffairs.sdsu.edu/faodad/webal$al.ws_job?p_faoyear=2017</string>
+    <string name="aztecShopsUrl">http://www.aztecshops.com/employment</string>
+    <string name="add">Add</string>
+
+    <!-- Job Description labels -->
+    <string name="description">Job Description</string>
+    <string name="desiredSkills">Desired Skills</string>
+    <string name="pay">Pay</string>
+    <string name="contact">Contact</string>
+    <string name="apply">Apply Now</string>
+    <string name="cart">Add to cart</string>
+    <string name="department">Department</string>
+    <string name="jobTitle">Job Title</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="empty">Can\'t be empty</string>
+    <string name="summary">Summary</string>
+    <string name="editContact">Edit Contact</string>
+    <string name="passwordRule">Password should be of length 3 or greater!</string>
+    <!-- Post job -->
+    <string name="empType">Employment Type</string>
+    <string name="fullTime">Full-Time</string>
+    <string name="partTime">Part Time</string>
+    <string name="workStudyPermission">Work Study permission required?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="post">Post a job</string>
+    <string name="manage">Manage Jobs</string>
+
+    <!-- Navigation menu-->
+    <string name="home">Home</string>
+    <string name="jobs">Jobs</string>
+    <string name="profile">Profile</string>
+    <string name="postJob">Post Job</string>
+    <string name="signout">Sign Out</string>
+    <string name="viewJobDesc">View Job</string>
+    <string name="queryHint">Enter job title / department</string>
+    <string name="searchTitle">Search</string>
+    <string name="filterHint">Position or Department</string>
+    <string name="position">Position</string>
+    <string name="company">Company</string>
+    <string name="postedOn">Posted On : </string>
+    <string name="appliedOn">Applied On " </string>
+    <string name="noposts">You\'ve not posted any jobs!</string>
+    <string name="decline">Decline</string>
+    <string name="scheduleInterview">Schedule Interview</string>
+    <string name="noApplications">No Applications found!</string>
+    <string name="alreadyApplied">You have already applied to this job!</string>
+    <string name="inCart">Job already in cart</string>
+    <string name="applied">Applied</string>
+    <string name="postedByYou">Jobs posted by you</string>
+    <string name="viewMoreSkills">View More</string>
+
+    <!-- Education details-->
+    <string name="educationLabel">Education</string>
+    <string name="emptyEducation">(Ex: San Diego State University)</string>
+    <string name="delimiter">|</string>
+    <string name="startDate">Start Date</string>
+    <string name="endDate">End Date</string>
+    <string name="degree">Degree</string>
+    <string name="major">Major</string>
+    <string name="school">School</string>
+
+    <!-- Home menu -->
+    <string name="suggested">Suggested Links</string>
+    <string name="workStudy">Federal Work Study</string>
+    <string name="nonWorkStudy">Non Work Study</string>
+    <string name="associatedStudent">Associated Student Union</string>
+    <string name="aztecShops">Aztec Shops</string>
+
+    <!-- Job Cart -->
+    <string name="cartTotal">Cart Total :</string>
+    <string name="count">Total jobs in cart</string>
+
+    <!-- Shared preferences file names -->
+    <string name="jobsFile">JobsFile</string>
+
+    <!-- Search options -->
+    <string name="deparmentSearch">Department (optional)</string>
+    <string name="jobTitleSearch">Job Title or Position</string>
+
+    <string name="filter">Filter</string>
+    <string name="save">Save Changes</string>
+    <string name="onSaveSuccessMessage">Saved Successfully</string>
+    <string name="phoneNumber">Phone Number</string>
+
+    <!-- Experience details -->
+    <string name="experienceLabel">Experience</string>
+    <string name="emptyExperience">Add your current and previous experiences!</string>
+    <string name="skillSetLabel">Skills</string>
+    <string name="app_credits">Made with \u2764 by Deepak</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_job_cart">JobCart</string>
+</resources>

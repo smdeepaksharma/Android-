@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "805590892603",
+    "firebase_url": "https://sdsuoncampus.firebaseio.com",
+    "project_id": "sdsuoncampus",
+    "storage_bucket": "sdsuoncampus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805590892603:android:8f3be28250544a7f",
+        "android_client_info": {
+          "package_name": "com.sdsu.deepak.campusjobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805590892603-hi951tc53g0o92t80dc3b6btcl9jah5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sdsu.deepak.campusjobs",
+            "certificate_hash": "290f252be113c87da6a650c0acbf2783830bf02c"
+          }
+        },
+        {
+          "client_id": "805590892603-ve629mpu16icsqtkdq84ruqlntlm7hqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmahzTlRwVeT7-2htBC-vRkOanqG6Y424"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805590892603-ve629mpu16icsqtkdq84ruqlntlm7hqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

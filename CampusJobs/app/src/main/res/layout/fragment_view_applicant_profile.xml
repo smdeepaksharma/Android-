@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sdsu.deepak.campusjobs.ViewApplicantProfile"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/profile_layout"
+        android:layout_width="match_parent"
+        android:background="@color/grey"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/grey"
+            android:src="@drawable/user_icon"
+            android:contentDescription="@string/profile"
+            android:id="@+id/profileIcon"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/profileIcon"
+            android:layout_alignTop="@+id/profileIcon"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            tools:text="Deepak Sharma Siddapura Manjuanth"/>
+
+        <TextView
+            android:id="@+id/studentEmailId"
+            android:drawablePadding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/name"
+            android:layout_below="@id/name"
+            tools:text="deepaksharma.s.m@gmail.com"
+            android:layout_marginTop="8dp"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@color/white_70"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_marginStart="4dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/message"
+            android:background="@color/grey"
+            android:textColor="@color/green"
+            android:text="@string/scheduleInterview"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/profile_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/contactDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="2dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/contactLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:drawablePadding="10dp"
+                        android:text="@string/contact"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+                    <TextView
+                        android:id="@+id/studentPhone"
+                        android:drawablePadding="10dp"
+                        android:drawableStart="@drawable/ic_phone_android_black_18dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/contactLabel"
+                        android:layout_marginTop="8dp"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/educationBackground_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contactDetails"
+                android:layout_marginTop="2dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/educationLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:drawablePadding="10dp"
+                        android:text="@string/educationLabel"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+                    <LinearLayout
+                        android:id="@+id/educationBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/educationLabel"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/experienceBackground_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/educationBackground_card"
+                android:layout_marginTop="2dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/experienceLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:text="@string/experienceLabel"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+                    <LinearLayout
+                        android:id="@+id/experienceBackground"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/experienceLabel"
+                        android:orientation="vertical" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/skills_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/experienceBackground_card"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="2dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/skillSetLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/skillSetLabel"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+                    <LinearLayout
+                        android:id="@+id/skillSet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/skillSetLabel"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

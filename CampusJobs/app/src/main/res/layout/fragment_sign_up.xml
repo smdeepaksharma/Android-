@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:animateLayoutChanges="true"
+    tools:context="com.sdsu.deepak.campusjobs.SignUpFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e62614"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:text="@string/registerTitle"/>
+
+    <EditText android:id="@+id/name"
+        android:layout_marginTop="8dp"
+        android:drawableStart="@drawable/ic_account_circle_black_18dp"
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:nextFocusForward="@+id/email"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName|textCapSentences"
+        android:hint="@string/name"/>
+
+    <EditText android:id="@+id/email"
+        android:drawableStart="@drawable/ic_mail_outline_black_18dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:nextFocusForward="@+id/phoneNumber"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneNumber"
+        android:hint="@string/phoneNumber"
+        android:drawableStart="@drawable/ic_phone_android_black_18dp"
+        android:drawablePadding="10dp"
+        android:nextFocusForward="@+id/password"
+        android:inputType="phone"/>
+
+    <EditText android:id="@+id/password"
+        android:drawableStart="@drawable/ic_vpn_key_black_18dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:nextFocusForward="@+id/family_name"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/password"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/create_account"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/create_account"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/olduser"
+        android:textSize="16sp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/back_to_login"/>
+
+</LinearLayout>

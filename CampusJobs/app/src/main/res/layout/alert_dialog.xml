@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/deep_purple"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textAlignment="textStart"
+        android:id="@+id/alterText"
+        android:text="Are you sure you want to exit?"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/resume"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            style="?android:buttonBarButtonStyle"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="CANCEL" />
+        <Button
+            android:id="@+id/exit"
+            style="?android:buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="EXIT" />
+    </LinearLayout>
+</LinearLayout>

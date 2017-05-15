@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/item_samplebadge"
+        app:actionLayout="@layout/feed_update_count"
+        app:showAsAction="always"
+        android:title="@string/cart"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="@string/profile"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_account_circle_white_18dp"/>
+
+    <item android:id="@+id/signout"
+        app:showAsAction="never"
+        android:title="@string/signOut"/>
+</menu>

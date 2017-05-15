@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sdsu.deepak.campusjobs.ViewJobApplicantsFragment">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/jobTitle"
+          android:padding="16dp"
+          android:gravity="center"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+          android:textColor="@color/deep_purple"
+          android:text="Android Mobile Application Developer"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/applicantsCount"
+        android:paddingStart="16dp"
+        android:textColor="@color/red"
+        android:gravity="center"
+        android:text="Number of applicants : 12" />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/jobApplicantsList"/>
+
+</LinearLayout>
