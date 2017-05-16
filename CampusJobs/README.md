@@ -15,7 +15,7 @@ a) Using the apps Sign In module b) Using their Gmail account
 <img src="/CampusJobs/screenshots/login.png" height="400px" width="250px"/>     <img src="/CampusJobs/screenshots/register.png" height="400px" width="250px"/>    <img src="/CampusJobs/screenshots/joblisting.png" height="400px" width="250px"/>
 
 2. Search job 
-Using the serach option in the home screen you can either search by Job Title or by Department or both. 
+Using the search option in the home screen you can either search by Job Title or by Department or both. 
 If no matching jobs are found, all the jobs will be displayed to the user.
 
 3. View job description
@@ -25,7 +25,7 @@ From the Job Listing screen when the user taps on a particular job item, he can 
 User can add the multiple jobs to cart and apply to all the jobs at once. 
 
 5. View Profile
-User can view profile using the Profile menu in the action bar (condesed menu).
+User can view profile using the Profile menu in the action bar (condensed menu).
 
 <img src="/CampusJobs/screenshots/jobdescription.png" height="400px" width="250px"/>      <img src="/CampusJobs/screenshots/profile.png" height="400px" width="250px"/>     <img src="/CampusJobs/screenshots/addEducation.png" height="400px" width="250px"/>
 
